@@ -111,7 +111,7 @@ function About() {
     return (
         <>
             <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
+                <img className="w-full" src="./images/logos/bitmoji.png" alt="Rishabh Singh Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>my name is <span className="font-bold">rishabh singh</span> ,</div>
@@ -122,7 +122,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:berishabhsingh@gmail.com'><u>berishabhsingh@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">UnderGraduate Student</span> currently pursuing Btech in EEE, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:berishabhsingh@gmail.com'><u>berishabhsingh@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building">I enjoy delving into cybersecurity research and practicing ethical hacking techniques. </li>
                 <li className=" mt-3 list-time">When I'm not immersed in cybersecurity, you'll find me diving into Movies, exploring CyberSecurity forums, or watching informative CyberSecurity channels like<a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
                 <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications.</li>
@@ -144,17 +144,17 @@ function Education() {
                 
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Assabah Arts&Science college
+                        Motihari College Of Engineering Motihari
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2023</div>
-                    <div className=" text-sm md:text-base">Bachelor in Computer Application</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2025 - 2029</div>
+                    <div className=" text-sm md:text-base">Bachelor in Electrical and Electronics Engineering</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (IHRD)
+                        Class 12<sup>th</sup> (CBSE)
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2020</div>
-                    <div className=" text-sm md:text-base">computer Sceience, Maths, Science(Integrated Science)</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2022 – 2024</div>
+                    <div className=" text-sm md:text-base">Physics, Chemistry, Mathematics (PCM)</div>
                 </li>
             </ul>
         </>
