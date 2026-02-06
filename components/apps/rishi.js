@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
 
-export class AboutVivek extends Component {
+export class AboutRishi extends Component {
 
     constructor() {
         super();
@@ -100,10 +100,10 @@ export class AboutVivek extends Component {
     }
 }
 
-export default AboutVivek;
+export default AboutRishi;
 
-export const displayAboutVivek = () => {
-    return <AboutVivek />;
+export const displayAboutRishi = () => {
+    return <AboutRishi />;
 }
 
 
@@ -307,7 +307,20 @@ function Projects() {
     )
 }
 function Resume() {
-    return (
-        <iframe className="h-full w-full" src="./files/rishabh-singh-resume.pdf" title="rishabh singh resume" frameBorder="0"></iframe>
-    )
+  return (
+    <div className="h-full w-full flex items-center justify-center">
+      <div className="border border-dashed border-gray-400 border-opacity-40 rounded-lg p-6 md:p-10 text-center max-w-lg mx-4">
+        <div className="text-2xl md:text-3xl font-semibold text-gray-100">
+          Resume not uploaded yet
+        </div>
+        <div className="mt-2 text-sm md:text-base text-gray-300">
+          PDF will be uploaded soon.
+        </div>
+
+        <div className="mt-6 text-xs text-gray-400 font-mono">
+          // TODO: add ./files/rishabh-singh-resume.pdf
+        </div>
+      </div>
+    </div>
+  );
 }
