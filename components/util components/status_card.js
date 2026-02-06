@@ -95,7 +95,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg" alt="kali wifi" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span>Samsung Galaxy S24 Ultra</span>
+						<span>Samsung Galaxy S25 Ultra</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
