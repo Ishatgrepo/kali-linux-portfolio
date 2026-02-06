@@ -76,14 +76,14 @@ export class Gedit extends Component {
                     <img src="/images/logos/email.png" className="h-16 w-16"></img>
                     <span>mail</span>
                 </a>
-                <a href="https://medium.com/@x3r" className="flex flex-col h-max justify-center items-center" target="_blank">
+                {/* <a href="https://medium.com/@x3r" className="flex flex-col h-max justify-center items-center" target="_blank">
                     <img src="/images/logos/medium.png" className="h-16 w-16"></img>
                     <span>medium</span>
                 </a>
                 <a href="https://discord.gg/96fThXW3" className="flex flex-col h-max justify-center items-center" target="_blank">
                     <img src="/images/logos/discord.png" className="h-16 w-16"></img>
                     <span>discord</span>
-                </a>
+                </a> */}
             </div>
         )
     }
