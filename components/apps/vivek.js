@@ -114,7 +114,7 @@ function About() {
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">mohd aslam</span> ,</div>
+                <div>my name is <span className="font-bold">rishabh singh</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">CyberSecurity Researcher!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -122,7 +122,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:x3rcyb@gmail.com'><u>x3rcyb@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:berishabhsingh@gmail.com'><u>berishabhsingh@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building">I enjoy delving into cybersecurity research and practicing ethical hacking techniques. </li>
                 <li className=" mt-3 list-time">When I'm not immersed in cybersecurity, you'll find me diving into Movies, exploring CyberSecurity forums, or watching informative CyberSecurity channels like<a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
                 <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications.</li>
@@ -219,7 +219,7 @@ function Projects() {
         {
             name: "eviltwin-potable-device(IOT-project)",
             date: "Jan 2024 -March 2024",
-            link: "https://github.com/x3rcyb/Evil-Twin-UI-Makeover",
+            link: "https://github.com/berishabhsingh/Evil-Twin-UI-Makeover",
             description: [
                 "This portable Evil Twin device project was born out of my curiosity about WiFi attacks, offering a convenient tool for conducting Evil Twin attacks.",
             ],
@@ -228,7 +228,7 @@ function Projects() {
         {
             name: "Smart Panchayath",
             date: "Aug 2022 -Mar 2023",
-            link: "https://github.com/x3rcyb/smart-panchayat",
+            link: "https://github.com/berishabhsingh/smart-panchayat",
             description: [
                 "The Smart Panchayat project is a modernization initiative aimed at revolutionizing rural governance through technology and digital solutions. ",
             ],
@@ -308,6 +308,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/mohd-aslam-resume.pdf" title="mohd aslam resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/mohd-aslam-resume.pdf" title="rishabh singh resume" frameBorder="0"></iframe>
     )
 }

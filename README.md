@@ -7,7 +7,7 @@ Welcome to my Kali Linux-themed personal portfolio website! This project is a we
 To get started with this project, you can follow these simple steps:
 
 1. **Clone the Repository**: Clone this project to your local machine using the following command:
-git clone https://github.com/x3rcyb/kali-linux-portfolio.git
+git clone https://github.com/berishabhsingh/kali-linux-portfolio.git
 
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm or yarn:
 cd kali-linux-portfolio

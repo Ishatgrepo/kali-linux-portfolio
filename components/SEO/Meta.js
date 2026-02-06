@@ -5,14 +5,14 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Mohd Aslam - Cyber Security Researcher</title>
+            <title>Rishabh Singh - Cyber Security Researcher</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="mohd aslam Portfolio - Computer Engineering Student" />
+            <meta name="title" content="rishabh singh Portfolio - Electrical and Electronics Engineering Student" />
             <meta name="description"
-                content="mohd aslam's (x3rcyb) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="author" content="mohd aslam (x3rcyb)" />
+                content="rishabh singh's (berishabhsingh) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="author" content="rishabh singh (berishabhsingh)" />
             <meta name="keywords"
-                content="x3rcyb, x3rcyb's portfolio, x3rcyb linux, kali linux portfolio, mohd aslam protfolio,mohd aslam computer, mohd aslam, kali linux, mohd aslam kali linux portfolio" />
+                content="berishabhsingh, berishabhsingh's portfolio, berishabhsingh linux, kali linux portfolio, rishabh singh protfolio,rishabh singh computer, rishabh singh, kali linux, rishabh singh kali linux portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -22,25 +22,25 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="mohd aslam Portfolio - Computer Engineering Student" />
+            <meta itemProp="name" content="rishabh singh Portfolio - Electrical and Electronics Engineering Student" />
             <meta itemProp="description"
-                content="mohd aslam's (x3rcyb) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
+                content="rishabh singh's (berishabhsingh) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="mohd aslam Portfolio - Computer Engineering Student" />
+            <meta name="twitter:title" content="rishabh singh Portfolio - Electrical and Electronics Engineering Student" />
             <meta name="twitter:description"
-                content="mohd aslam's (x3rcyb) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="twitter:site" content="x3rcyb" />
-            <meta name="twitter:creator" content="x3rcyb" />
+                content="rishabh singh's (berishabhsingh) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="twitter:site" content="berishabhsingh" />
+            <meta name="twitter:creator" content="berishabhsingh" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="mohd aslam Portfolio - Computer Engineering Student" />
+            <meta name="og:title" content="rishabh singh Portfolio - Electrical and Electronics Engineering Student" />
             <meta name="og:description"
-                content="mohd aslam's (x3rcyb) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
+                content="rishabh singh's (berishabhsingh) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/logo_1200.png" />
-            <meta name="og:url" content="http://x3rcyb.github.io/" />
-            <meta name="og:site_name" content="mohd aslam Personal Portfolio" />
+            <meta name="og:url" content="http://berishabhsingh.github.io/" />
+            <meta name="og:site_name" content="rishabh singh Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
