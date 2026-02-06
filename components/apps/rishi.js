@@ -122,7 +122,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">UnderGraduate Student</span> currently pursuing Btech in EEE, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:berishabhsingh@gmail.com'><u>berishabhsingh@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">UnderGraduate Student</span> currently pursuing Btech in EEE, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:besinghrishabh@gmail.com'><u>besinghrishabh@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building">I enjoy delving into cybersecurity research and practicing ethical hacking techniques. </li>
                 <li className=" mt-3 list-time">When I'm not immersed in cybersecurity, you'll find me diving into Movies, exploring CyberSecurity forums, or watching informative CyberSecurity channels like<a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
                 <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications.</li>
