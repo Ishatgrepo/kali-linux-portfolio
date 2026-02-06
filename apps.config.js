@@ -28,7 +28,7 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-aslam",
+        id: "about-rishabh",
         title: "About Aslam",
         icon: './themes/Yaru/system/mc-home-logo.png',
         disabled: false,
