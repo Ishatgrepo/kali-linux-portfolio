@@ -215,97 +215,33 @@ function Skills() {
 }
 
 function Projects() {
-    const project_list = [
-        {
-            name: "eviltwin-potable-device(IOT-project)",
-            date: "Jan 2024 -March 2024",
-            link: "https://github.com/berishabhsingh/Evil-Twin-UI-Makeover",
-            description: [
-                "This portable Evil Twin device project was born out of my curiosity about WiFi attacks, offering a convenient tool for conducting Evil Twin attacks.",
-            ],
-            domains: ["Arduino IDE (C++)", "HTML","CSS" ]
-        },
-        {
-            name: "Smart Panchayath",
-            date: "Aug 2022 -Mar 2023",
-            link: "https://github.com/berishabhsingh/smart-panchayat",
-            description: [
-                "The Smart Panchayat project is a modernization initiative aimed at revolutionizing rural governance through technology and digital solutions. ",
-            ],
-            domains: ["javascript", "Css", "HTML" , "Python"]
-        },
-    ];
+  return (
+    <>
+      <div className="font-medium relative text-2xl mt-2 md:mt-4 mb-4">
+        Projects
+        <div className="absolute pt-px bg-white mt-px top-full w-full">
+          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
+          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
+        </div>
+      </div>
 
-    const tag_colors = {
-        "javascript": "yellow-300",
-        "firebase": "red-600",
-        "firestore": "red-500",
-        "firebase auth": "red-400",
-        "chrome-extension": "yellow-400",
-        "flutter": "blue-400",
-        "dart": "blue-500",
-        "react-native": "purple-500",
-        "html5": "pink-600",
-        "sass": "pink-400",
-        "tensorflow": "yellow-600",
-        "django": "green-600",
-        "python": "green-200",
-        "codeforces-api": "gray-300",
-        "tailwindcss": "blue-300",
-        "next.js": "purple-600"
-    }
-
-    return (
-        <>
-            <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
-                Projects
-                <div className="absolute pt-px bg-white mt-px top-full w-full">
-                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
-                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
-                </div>
-            </div>
-            {
-                project_list.map((project, index) => {
-                    const projectNameFromLink = project.link.split('/')
-                    const projectName = projectNameFromLink[projectNameFromLink.length - 1]
-                    return (
-                        <a key={index} href={project.link} target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
-                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
-                                <div className="flex flex-wrap justify-between items-center">
-                                    <div className='flex justify-center items-center'>
-                                        <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=rishi9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
-                                    </div>
-                                    <div className="text-gray-300 font-light text-sm">{project.date}</div>
-                                </div>
-                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
-                                    {
-                                        project.description.map((desc, index) => {
-                                            return <li key={index} className="list-disc mt-1 text-gray-100">{desc}</li>;
-                                        })
-                                    }
-                                </ul>
-                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
-                                    {
-                                        (project.domains ?
-                                            project.domains.map((domain, index) => {
-                                                const borderColorClass = `border-${tag_colors[domain]}`
-                                                const textColorClass = `text-${tag_colors[domain]}`
-
-                                                return <span key={index} className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}>{domain}</span>
-                                            })
-
-                                            : null)
-                                    }
-                                </div>
-                            </div>
-                        </a>
-                    )
-                })
-            }
-        </>
-    )
+      <div className="w-full flex items-center justify-center mt-10">
+        <div className="border border-dashed border-gray-400 border-opacity-40 rounded-lg px-6 py-8 text-center max-w-md">
+          <div className="text-xl md:text-2xl font-semibold text-gray-100">
+            Projects will be updated soon
+          </div>
+          <div className="mt-2 text-sm md:text-base text-gray-300">
+            Currently refining and adding new work.
+          </div>
+          <div className="mt-5 text-xs text-gray-400 font-mono">
+            // under development
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
+
 function Resume() {
   return (
     <div className="h-full w-full flex items-center justify-center">
